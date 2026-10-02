@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Quality Engineer | Patryk Grund</title>
+<meta name="description" content="Quality Engineer / Test Automation portfolio — UI, API and performance testing.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav"><a class="brand" href="#top">QE Pattrick97</a><nav>
+<a href="#approach">Approach</a><a href="#project">Project</a><a href="#stack">Stack</a><a href="#contact">Contact</a>
+<a href="https://github.com/Pattrick97/portfolioQE" target="_blank" rel="noopener">GitHub ↗</a></nav></header>
+<main id="top">
+<section class="hero"><p class="eyebrow">QUALITY ENGINEER / TEST AUTOMATION</p>
+<h1>I build test systems that give teams fast, useful feedback.</h1>
+<p class="lead">Practical automation across UI, API and performance testing — with a focus on risk, isolation, deterministic assertions and CI feedback loops.</p>
+<div class="actions">
+<a class="button primary" href="#project">Explore the project ↓</a>
+<a class="button" href="CV%20Patryk%20Grund.pdf" target="_blank" rel="noopener">View CV ↗</a>
+<a class="button" href="https://www.linkedin.com/in/patryk-grund" target="_blank" rel="noopener">LinkedIn ↗</a>
+</div></section>
+
+<section id="approach"><p class="eyebrow">01 / QUALITY ENGINEERING APPROACH</p><h2>Automation is the implementation. Quality is the reasoning.</h2>
+<div class="grid">
+<article><span>01</span><h3>Risk-based coverage</h3><p>Critical business paths come first: authentication, cart, checkout and contact flows. Negative scenarios then harden those paths.</p><small>Risk · Business flows · Negative testing</small></article>
+<article><span>02</span><h3>Isolation over coupling</h3><p>Worker-scoped account setup and per-test state reset keep tests independent and reduce hidden dependencies.</p><small>Fixtures · State control</small></article>
+<article><span>03</span><h3>Deterministic assertions</h3><p>Assertions target user-visible outcomes and API contract signals instead of fragile implementation details.</p><small>Contracts · Stable checks</small></article>
+<article><span>04</span><h3>Fast feedback loops</h3><p>API and UI smoke checks run on every push. Full cross-browser regression runs on schedule or manually.</p><small>CI/CD · Feedback</small></article>
+</div></section>
+
+<section id="project"><p class="eyebrow">02 / FEATURED PROJECT</p><h2>E-commerce test automation <span>built as a QE portfolio.</span></h2>
+<p>An end-to-end UI + API automation suite built with Playwright and TypeScript against Automation Exercise. The project is intentionally structured like a maintainable test codebase rather than a collection of isolated scripts.</p>
+<div class="actions"><a class="button primary" href="https://github.com/Pattrick97/portfolioQE" target="_blank" rel="noopener">Open GitHub ↗</a>
+<a class="button" href="https://github.com/Pattrick97/portfolioQE#readme" target="_blank" rel="noopener">Read architecture →</a></div>
+<div class="grid stats">
+<div><b>UI / API / PERF</b><small>Implemented coverage</small></div><div><b>Authentication</b><small>signup · login · logout · guards</small></div>
+<div><b>Cart & checkout</b><small>guest guards · cart state · payment</small></div><div><b>API contracts</b><small>200 · 400 · 404 · 405 scenarios</small></div>
+<div><b>Performance</b><small>k6 thresholds · p95 signals</small></div></div></section>
+
+<section id="stack"><p class="eyebrow">03 / TOOLBOX</p><h2>The stack behind the checks.</h2><div class="grid stats">
+<div><b>Playwright</b><small>UI + API automation</small></div><div><b>TypeScript</b><small>Typed test architecture</small></div><div><b>k6</b><small>API performance baselines</small></div>
+<div><b>GitHub Actions</b><small>CI smoke & regression</small></div><div><b>Faker</b><small>Dynamic test data</small></div><div><b>ESLint / Prettier</b><small>Code quality & consistency</small></div></div></section>
+
+<section><p class="eyebrow">CI FEEDBACK MODEL</p><h2>Different feedback speeds for different risks.</h2><div class="grid stats">
+<div><b>API Smoke</b><small>every push</small></div><div><b>UI Smoke</b><small>every push · Chromium</small></div><div><b>Regression</b><small>daily · 3 browsers</small></div></div></section>
+
+<section><p class="eyebrow">04 / ENGINEERING DETAILS</p><h2>What happens when the happy path isn't enough?</h2>
+<p>The project includes guards for invalid credentials, missing parameters, unsupported HTTP methods, empty cart/payment states, session invalidation and intermittent browser navigation issues.</p>
+<p>CI failures can be investigated with Playwright traces and video artifacts, while k6 uses thresholds as a lightweight performance budget rather than pretending to be a full-scale load test.</p></section>
+
+<section id="contact"><p class="eyebrow">05 / LET'S CONNECT</p><h2>Want to see the implementation?</h2>
+<p>The complete source, architecture notes and CI configuration are available on GitHub.</p>
+<div class="actions"><a class="button primary" href="https://github.com/Pattrick97/portfolioQE" target="_blank" rel="noopener">View GitHub ↗</a>
+<a class="button" href="https://www.linkedin.com/in/patryk-grund" target="_blank" rel="noopener">LinkedIn ↗</a>
+<a class="button" href="CV%20Patryk%20Grund.pdf" target="_blank" rel="noopener">View CV ↗</a></div></section>
+</main><footer>© Patryk Grund · Built for Quality Engineering</footer>
+</body></html>
